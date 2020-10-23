@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>thumbs7z</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-thumbs7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>thumbs7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/thumbs7z/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>thumbs7z 7zip 7-zip thumbnail cache thumbs.db</tags>
+    <summary>7-Zip with Thumbs7z can open Windows thumbnail cache files and extract individual thumbnails from them</summary>
+    <description>Thumbs7z is a small plugin for the popular 7-Zip archiver. 7-Zip with Thumbs7z can open Windows thumbnail cache files and extract individual thumbnails from them.
+
+List of formats that can be opened in 7-Zip with Thumbs7z
+Files created in Windows XP and Windows Media Center:
+
+- Thumbs.db
+- ehthumbs.db
+- ehthumbs_vista.db
+- Image.db
+- Video.db
+- TVThumb.db
+- musicThumbs.db
+
+Files created in Windows Vista and better:
+
+- thumbcache_16.db
+- thumbcache_32.db
+- thumbcache_48.db
+- thumbcache_96.db
+- thumbcache_256.db
+- thumbcache_768.db
+- thumbcache_1024.db
+- thumbcache_1280.db
+- thumbcache_1600.db
+- thumbcache_1920.db
+- thumbcache_2560.db
+- thumbcache_sr.db
+- thumbcache_exif.db
+- thumbcache_wide.db
+- thumbcache_wide_alternate.db
+- thumbcache_custom_stream.db
+
+    </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.0
+Distribution package release date: 16 Mar 2018
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
